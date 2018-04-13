@@ -1,4 +1,4 @@
-## 软件测试第二次上机实验+——Selenium的使用
+## 软件测试第二次上机实验——Selenium的使用
 ### 实验要求
 - 1、安装SeleniumIDE插件
 - 2、学会使用SeleniumIDE录制脚本和导出脚本
