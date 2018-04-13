@@ -25,9 +25,13 @@
 **准备工作**
 
 1.下载火狐浏览器，以供登录Driver的操作
+
 2.下载供java启动火狐浏览器使用的[geckodriver.exe](https://www.geckodrive.com/)程序，并放到可以读取的目录下
+
 3.下载[Selenium Java](https://www.seleniumhq.org/download/)，可以是最新版本
+
 4.下载供读取xlsx文件的[apache poi驱动](https://poi.apache.org/download.html#POI-3.17)
+
 5.将以上所有的jar文件全部添加到相关的路径中去，具体操作是，项目目录右键-->Properties-->Java Build Path-->Libraries-->Add JARs
 
 将循环和验证结合起来，写成一个测试用例，最后run起来（相关代码已经上传到GitHub上面去了）
