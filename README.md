@@ -2,7 +2,7 @@
 ### 实验要求
 - 1、安装SeleniumIDE插件
 - 2、学会使用SeleniumIDE录制脚本和导出脚本
-- 3、访问https://psych.liebes.top/st使用学号登录系统，进入系统后可以看到该同学的git地址。
+- 3、访问https://psych.liebes.top/st 使用学号登录系统，进入系统后可以看到该同学的git地址。
 - 4、编写Selenium Java WebDriver程序，测试input.xlsx表格中的学号和git地址的对应关系是否正确。
 - 5、将测试代码提交到github上
 
@@ -13,7 +13,9 @@
 - 2、学会使用SeleniumIDE录制脚本和导出脚本
 如下是挺好看的界面
 ![](./katalon.png)
+
 那个红点是录制键，点击后进行相关操作会被记录到表中，最后将完成的步骤再进行export导出成java文件即可
+
 ![](./export.png)
 
 - 3、使用Selenium Java WebDriver程序，测试正确性
@@ -21,6 +23,7 @@
 由于已经在katalon中录制好了相关的操作，现在只需要将从文件中读取到的账号密码对进行循环登录即可
 
 **准备工作**
+
 1.下载火狐浏览器，以供登录Driver的操作
 2.下载供java启动火狐浏览器使用的[geckodriver.exe](https://www.geckodrive.com/)程序，并放到可以读取的目录下
 3.下载[Selenium Java](https://www.seleniumhq.org/download/)，可以是最新版本
